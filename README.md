@@ -9,9 +9,6 @@
 * Head First Android Development A Brain-Friendly Guide; Dawn Griffiths & David Griffiths 
 * Professional Android for Application Development; Reto Meier
 
-## Videos
-* https://www.youtube.com/watch?v=U5aeM5dvUpA&list=PLl-K7zZEsYLmgdxMEHar35Wo26fLWm9BI 
-
 ## Misc
 * https://www.kodeco.com/34718715-lifecycle-aware-components-in-android 
 * https://www.studytonight.com/android/introduction-to-android
