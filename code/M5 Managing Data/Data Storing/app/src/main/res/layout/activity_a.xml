@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_a"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityA">
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coordinator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.29000002"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/dataText"
+        android:layout_width="249dp"
+        android:layout_height="43dp"
+        android:maxLines="2"
+        app:layout_constraintBottom_toTopOf="@+id/InternalCacheBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text" />
+
+    <Button
+        android:id="@+id/InternalCacheBtn"
+        android:layout_width="220dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#FF5722"
+        android:text="Internal Cache"
+        app:layout_constraintBottom_toTopOf="@+id/ExternalCacheBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dataText" />
+
+    <Button
+        android:id="@+id/ExternalCacheBtn"
+        android:layout_width="214dp"
+        android:layout_height="60dp"
+        android:text="External cache"
+        android:backgroundTint="#E91E63"
+        app:layout_constraintBottom_toTopOf="@+id/ExternalPrivateBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/InternalCacheBtn" />
+
+    <Button
+        android:id="@+id/ExternalPrivateBtn"
+        android:layout_width="216dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#009688"
+        android:text="External Private"
+        app:layout_constraintBottom_toTopOf="@+id/ExternalPublicBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ExternalCacheBtn" />
+
+    <Button
+        android:id="@+id/ExternalPublicBtn"
+        android:layout_width="215dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#0669E1"
+        android:text="External Public"
+        app:layout_constraintBottom_toTopOf="@+id/BtnNext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ExternalPrivateBtn" />
+
+    <Button
+        android:id="@+id/BtnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ExternalPublicBtn" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:text="Enter Data:"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/dataText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/coordinator" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

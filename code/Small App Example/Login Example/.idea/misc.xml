@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Login Example/app/src/main/res/layout/activity_explicit_intent.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Login Example/app/src/main/res/layout/activity_login.xml" value="0.12083333333333333" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Login Example/app/src/main/res/layout/activity_main.xml" value="0.21" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Login Example/app/src/main/res/layout/fragment_work_out_details.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Login Example/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Small Feature/Login Example/app/src/main/res/layout/activity_home.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

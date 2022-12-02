@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="69dp"
+        android:text="Sign Up"
+        android:textSize="40sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_alignRight="@id/textLastName"
+        android:layout_marginTop="50dp"
+        android:text="Name"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_alignBaseline="@id/textName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toRightOf="@id/textName"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textName"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:text="Lastname"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editLastName"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_alignBaseline="@id/textLastName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="33dp"
+        android:layout_toRightOf="@id/textLastName"
+        android:ems="10"
+        android:inputType="textCapSentences"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textLemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textLastName"
+        android:layout_alignRight="@id/textLastName"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="Email"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editLastName"
+        android:layout_alignBaseline="@id/textLemail"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="11dp"
+        android:layout_toRightOf="@id/textLemail"
+        android:ems="4"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textLemail"
+        android:layout_alignRight="@id/textLastName"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="24dp"
+        android:text="Age"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_alignBaseline="@id/textAge"
+        android:layout_alignRight="@id/editLastName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="-5dp"
+        android:layout_toRightOf="@id/textAge"
+        android:maxLength="3"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textAge"
+        android:layout_alignRight="@id/textLastName"
+        android:layout_marginTop="30dp"
+        android:text="Date Birth"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_alignBaseline="@id/textDate"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toRightOf="@id/textDate"
+        android:ems="10"
+        android:hint="DD-MM-YYYY"
+        android:inputType="date"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/textPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textDate"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:text="Password"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_alignBaseline="@id/textPassword"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toRightOf="@id/textPassword"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editPassword"
+        android:layout_alignStart="@id/editDate"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="11dp"
+        android:text="Next"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>

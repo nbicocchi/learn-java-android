@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="439dd7de-6fd4-410c-9a55-53c3510f9eda" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Data Storing/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Data Storing/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Data Storing/app/src/main/res/layout/activity_a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Data Storing/app/src/main/res/layout/activity_a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/src/main/java/com/filestorage/ActivityA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/src/main/java/com/filestorage/ActivityB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/src/main/java/com/filestorage/ActivityB2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/src/main/res/drawable/file.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/src/main/res/layout/activity_a.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/src/main/res/layout/activity_b.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../File Storage/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Slides/05-Managing Data.pptx" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectId" id="2H7awPunsBnI07y995w43fquw62" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="439dd7de-6fd4-410c-9a55-53c3510f9eda" name="Changes" comment="" />
+      <created>1667638813487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667638813487</updated>
+    </task>
+    <servers />
+  </component>
+</project>

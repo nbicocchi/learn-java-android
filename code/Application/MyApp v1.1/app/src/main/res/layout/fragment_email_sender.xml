@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+
+    <TextView
+        android:id="@+id/titleSendEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:text="Send Email"
+        android:textAlignment="center"
+        android:textColor="#214EF3"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toTopOf="@+id/textTo"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/to_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/sub_text"
+        app:layout_constraintEnd_toStartOf="@+id/textTo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.711">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/textTo"
+        android:layout_width="282dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/textSubject"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/to_text"
+        app:layout_constraintTop_toBottomOf="@+id/titleSendEmail"
+        app:layout_constraintVertical_bias="0.672" />
+
+    <TextView
+        android:id="@+id/sub_text"
+        android:layout_width="76dp"
+        android:layout_height="26dp"
+        android:text="Subject"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/textSubject"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="204dp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/textSubject"
+        android:layout_width="283dp"
+        android:layout_height="44dp"
+
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/textMessage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/sub_text"
+        app:layout_constraintTop_toBottomOf="@+id/textTo" />
+
+    <EditText
+        android:id="@+id/textMessage"
+        android:layout_width="364dp"
+        android:layout_height="348dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="top"
+        android:hint="Message:"
+        android:maxHeight="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/send_arrow"
+        app:layout_constraintBottom_toTopOf="@+id/textTo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/titleSendEmail"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

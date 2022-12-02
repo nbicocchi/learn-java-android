@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/relative_layoutA"
+    tools:ignore="MissingDefaultResource">
+
+    <TextView
+        android:id="@+id/Welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginRight="52dp"
+        android:maxLines="2"
+        android:padding="20dp"
+        android:text="Write Data Activity"
+        android:textAlignment="center"
+        android:textColor="#032BF4"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Welcome"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="10dp"
+        android:text="Username"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/username_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/email"
+        android:layout_alignTop="@id/Welcome"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/email"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username_edit"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:minHeight="48dp"
+        android:text="Password"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/pass_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/password"
+        android:layout_alignTop="@id/username_edit"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/password"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pass_edit"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="50dp"
+            android:backgroundTint="#214EF3"
+            android:text="Save"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/buttonB"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:backgroundTint="#214EF3"
+            android:text="Read data"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

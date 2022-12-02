@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/curve_shape"
+    android:layout_width="350dp"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insert New Employee"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/orange3"
+        />
+
+
+    <EditText
+        android:id="@+id/add_name_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:imeOptions="actionNext"
+        android:hint="name"
+        android:minHeight="48dp"/>
+
+    <EditText
+        android:id="@+id/add_position_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:imeOptions="actionNext"
+        android:hint="position"
+        android:minHeight="48dp"/>
+
+
+    <EditText
+        android:id="@+id/add_email_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionNext"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/add_phone_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="phone"
+        android:inputType="phone"
+        android:imeOptions="actionDone"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        app:cardCornerRadius="90dp"
+        android:backgroundTint="@color/orange3"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/dialog_add_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
+
+

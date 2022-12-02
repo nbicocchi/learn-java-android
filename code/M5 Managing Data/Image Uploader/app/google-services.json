@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1008446825039",
+    "firebase_url": "https://fir-app-example-43f4d-default-rtdb.firebaseio.com",
+    "project_id": "fir-app-example-43f4d",
+    "storage_bucket": "fir-app-example-43f4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008446825039:android:3b77c2ee8c8396e942403a",
+        "android_client_info": {
+          "package_name": "com.ImageUploader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008446825039-4npimjbjlcaepsvi5ugfglgugig2jml5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFRmkyh5Hi2T_hX_QJBY2Q7NmYB4V3eyY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008446825039-4npimjbjlcaepsvi5ugfglgugig2jml5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Nel mezzo del cammin di nostra vita
+mi ritrovai per una selva oscura,
+ché la diritta via era smarrita.
+Ahi quanto a dir qual era è cosa dura
+esta selva selvaggia e aspra e forte
+che nel pensier rinova la paura!"
+        android:textSize="5sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/primocanto"
+        android:textSize="5sp"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

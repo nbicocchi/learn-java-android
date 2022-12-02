@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My App</string>
+    <string name="madatory">Mandatory</string>
+    <string name="invalid_number">invalid number</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

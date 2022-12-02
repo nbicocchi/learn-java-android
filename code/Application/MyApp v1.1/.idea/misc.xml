@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/drawable/account.xml" value="0.238" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/drawable/add.xml" value="0.238" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/drawable/background.xml" value="0.1355" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/drawable/circle.xml" value="0.1255" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/drawable/cut_car_background.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/drawable/cut_card_background.xml" value="0.22" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/drawable/drawable.xml" value="0.2005" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/drawable/email.xml" value="0.238" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/drawable/form_shape.xml" value="0.123" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/drawable/heart.xml" value="0.238" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/drawable/home.xml" value="0.1075" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/drawable/send_arrow.xml" value="0.238" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/drawable/settings.xml" value="0.238" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/drawable/shapes.xml" value="0.2065" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/layout-land/new_login_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/layout-port-mdpi/new_home2_layout.xml" value="0.22" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/layout-port-mdpi/new_login_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/layout-port-mdpi/new_login_layout2.xml" value="0.22" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/layout/fragment_email_sender.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/layout/fragment_home.xml" value="0.3625" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/layout/home_layout.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/layout/home_layout2.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/layout/new_home2_layout.xml" value="0.67" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/layout/new_home_layout.xml" value="0.1503623188405797" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/layout/new_login_layout.xml" value="0.1284722222222222" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/layout/p.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1.1/app/src/main/res/layout/signup_layout.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1/app/src/main/res/drawable/add.xml" value="0.3455" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1/app/src/main/res/drawable/arrow.xml" value="0.161" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1/app/src/main/res/drawable/heart.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1/app/src/main/res/drawable/home.xml" value="0.3455" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1/app/src/main/res/drawable/mail.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1/app/src/main/res/drawable/sen-darrow.xml" value="0.161" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1/app/src/main/res/drawable/send-arrow.xml" value="0.207" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1/app/src/main/res/drawable/send_arrow.xml" value="0.207" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1/app/src/main/res/drawable/settings.xml" value="0.161" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1/app/src/main/res/layout/fragment_email_sender.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1/app/src/main/res/layout/fragment_home.xml" value="0.21462163317657118" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1/app/src/main/res/layout/home_layout.xml" value="0.22212148685403446" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1/app/src/main/res/layout/home_layout2.xml" value="0.21462163317657118" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1/app/src/main/res/layout/login_layout.xml" value="0.19945602901178605" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1/app/src/main/res/layout/sendEmail_layout.xml" value="0.21462163317657118" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1/app/src/main/res/layout/sendmail_layout.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1/app/src/main/res/layout/signup_layout.xml" value="0.33" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1/app/src/main/res/layout/signup_layout2.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Application/MyApp v1/app/src/main/res/layout/welcome_layout.xml" value="0.33" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/drawable/add-48px.xml" value="0.268" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/drawable/add.xml" value="0.238" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/drawable/drawable.xml" value="0.134" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/drawable/favorite-48px.xml" value="0.268" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/drawable/heart.xml" value="0.268" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/drawable/home-48px.xml" value="0.268" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/drawable/home.xml" value="0.238" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3515" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/drawable/settings.xml" value="0.268" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout-linear/linear_layout.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout-relative/complex_login_relative_layout.xml" value="0.2937152629328773" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout-relative/relative_layout.xml" value="0.26557377049180325" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout-relative/relative_layout2.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout-relative/simple_login_relative_layout.xml" value="0.2937152629328773" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout-table/table_layout.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout/activity_l.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout/activity_main2.xml" value="0.22" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout/complex_login_relative_layout.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout/constraint_layout.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout/frame_layout.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout/grid_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout/grid_layout2.xml" value="0.18" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout/h.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout/linear_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout/login.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout/login_layout.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout/register_layout.xml" value="0.17105263157894737" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout/relative_layout.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout/relative_layout2.xml" value="0.2967079948696024" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout/signup2_layout.xml" value="0.16673792218896966" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout/signup_layout.xml" value="0.22" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout/signup_linear_layout.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout/simple_login_relative_layout.xml" value="0.22" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout/tmp.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/layout/welcome_layout.xml" value="0.2159042325780248" />
+        <entry key="..\:/Users/Administrator/Documents/GitHub/First-Steps-on-Android-/Code/Example Slide/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3515" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

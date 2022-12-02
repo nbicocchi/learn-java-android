@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:shrinkColumns="2"
+
+    tools:ignore="MissingDefaultResource">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:backgroundTint="@color/green"
+
+            android:text="1"
+
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+
+        <Button
+            android:backgroundTint="@color/red"
+            android:text="2"
+
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+
+
+        <Button
+            android:backgroundTint="#3F51B5"
+            android:text="3"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+
+        <Button
+            android:backgroundTint="#2196F3"
+            android:text="4"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:backgroundTint="#E91E63"
+            android:text="4"
+            android:gravity="center"
+            android:background="@color/green"
+            android:textColor="@color/white"
+            android:textSize="23sp"/>
+
+        <TextView
+            android:backgroundTint="#E91E63"
+            android:text="4"
+            android:gravity="center"
+            android:background="@color/green"
+            android:textColor="@color/white"
+            android:textSize="23sp"/>
+        <TextView
+            android:backgroundTint="#E91E63"
+            android:text="4"
+            android:gravity="center"
+            android:background="@color/green"
+            android:textColor="@color/white"
+            android:textSize="23sp"/>
+
+
+
+
+
+    </TableRow>
+    <Button
+        android:text="Button outside the Table Layout"
+        />
+
+
+</TableLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <TextView
+        android:id="@+id/tV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Email Sender"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/purple_500"
+        app:layout_constraintBottom_toTopOf="@+id/textTo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/textTo"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="To:"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/textSubject"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tV1" />
+
+    <EditText
+        android:id="@+id/textSubject"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Subject:"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/textMessage"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTo" />
+
+    <EditText
+        android:id="@+id/textMessage"
+        android:layout_width="359dp"
+        android:layout_height="352dp"
+        android:layout_marginTop="12dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="Message:"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSend"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textSubject"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="16dp"
+        android:text="Send"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.983"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textMessage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

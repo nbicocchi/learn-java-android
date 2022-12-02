@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawable"
+    tools:context=".HomeActivity">
+
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:columnCount="4"
+        android:rowCount="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <ImageButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:src="@drawable/home"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:background="@color/transparent"
+            android:src="@drawable/settings"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+        <ImageButton
+
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:background="@color/transparent"
+            android:src="@drawable/add"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/mail_button"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:layout_gravity="fill"
+            android:background="@color/transparent"
+            android:src="@drawable/mail"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+    </GridLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Welcome"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/big"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.095"
+        tools:layout_editor_absoluteX="29dp" />
+
+    <TextView
+        android:id="@+id/home_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/normal"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.212"
+        tools:layout_editor_absoluteX="29dp" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

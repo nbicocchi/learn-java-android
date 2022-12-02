@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityA">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Data Read:"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/dataText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dataText"
+        android:layout_width="328dp"
+        android:layout_height="54dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/LoadInternalCacheBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title" />
+
+    <Button
+        android:id="@+id/LoadInternalCacheBtn"
+        android:layout_width="220dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#FF5722"
+        android:text="Load From Internal Cache"
+        app:layout_constraintBottom_toTopOf="@+id/LoadExternalCacheBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dataText" />
+
+    <Button
+        android:id="@+id/LoadExternalPrivateBtn"
+        android:layout_width="216dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#009688"
+        android:text="Load From External Private"
+        app:layout_constraintBottom_toTopOf="@+id/LoadExternalPublicBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LoadExternalCacheBtn" />
+
+    <Button
+        android:id="@+id/LoadExternalCacheBtn"
+        android:layout_width="224dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#E91E63"
+        android:text="Load From External Cache"
+        app:layout_constraintBottom_toTopOf="@+id/LoadExternalPrivateBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LoadInternalCacheBtn" />
+
+    <Button
+        android:id="@+id/LoadExternalPublicBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load External Public"
+        android:backgroundTint="#0669E1"
+        app:layout_constraintBottom_toTopOf="@+id/btnprevious"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LoadExternalPrivateBtn" />
+
+    <Button
+        android:id="@+id/btnprevious"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Previous"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LoadExternalPublicBtn"
+        app:layout_constraintVertical_bias="0.431" />
+</androidx.constraintlayout.widget.ConstraintLayout>
